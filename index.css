@@ -1,0 +1,64 @@
+body{
+    margin:0;
+}
+.nav-bar{
+    position:sticky;
+    margin-bottom: 20px;
+}
+nav{
+  background-color:#FFF; 
+  display:flex; 
+  justify-content: space-around;
+}
+
+nav > button {
+    background-color: rgba(27.5, 45.1, 52.5,0.3);
+    border-radius :10%;
+    border:0;
+}
+
+.page1{
+    text-decoration: none;
+    font-family: Arial;
+    color: white;
+}
+
+nav > button:hover{
+    background-color:#6f6ff0;
+    cursor: pointer;
+}
+
+.info{
+    background-image: url("./bg.jpg");
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon >img{
+    border-radius: 50%;
+    border: 30px solid rgba(89, 89, 182,0.7);
+    width :500px;
+    margin:50px
+}
+
+.title>h2{
+    color:white;
+    font-weight:bold;
+    font-family: Roboto,sans-serif;
+    font-size:3rem;
+    letter-spacing: 1rem;
+}
+
+.par{
+    width:60%;
+}
+
+.par>p{
+    color:white;
+    font-family: Open Sans;
+    letter-spacing: 0.1rem;
+    font-size : 1rem;
+}
+
