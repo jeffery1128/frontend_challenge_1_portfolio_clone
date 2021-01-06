@@ -38,9 +38,37 @@ nav > button:hover{
 
 .icon >img{
     border-radius: 50%;
-    border: 30px solid rgba(89, 89, 182,0.7);
-    width :500px;
-    margin:50px
+    border: 1vh solid rgba(89, 89, 182,0.7);
+    width :40%;
+    margin: 0 30%;
+    /* margin:50px */
+}
+
+.icon{
+    flex:70%;
+    padding:2vh 1vh;
+}
+
+@media (max-width:800px){
+    .icon{
+        flex:80%;
+        max-width: 80%;
+    }
+    .title{
+        flex:50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width:600px){
+    .icon{
+        flex:100%;
+        max-width: 100%;
+    }
+    .title{
+        flex:40%;
+        max-width: 40%;
+    }
 }
 
 .title>h2{
@@ -50,6 +78,12 @@ nav > button:hover{
     font-size:3rem;
     letter-spacing: 1rem;
 }
+
+.title{
+    flex:100%;
+    text-align: center;
+}
+
 
 .par{
     width:60%;
