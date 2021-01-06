@@ -54,9 +54,8 @@ nav > button:hover{
         flex:80%;
         max-width: 80%;
     }
-    .title{
-        flex:50%;
-        max-width: 50%;
+    .title>h2{
+        font-size:1rem;
     }
 }
 
@@ -65,9 +64,8 @@ nav > button:hover{
         flex:100%;
         max-width: 100%;
     }
-    .title{
-        flex:40%;
-        max-width: 40%;
+    .title>h2{
+        font-size:0.5rem;
     }
 }
 
@@ -75,7 +73,6 @@ nav > button:hover{
     color:white;
     font-weight:bold;
     font-family: Roboto,sans-serif;
-    font-size:3rem;
     letter-spacing: 1rem;
 }
 
@@ -86,7 +83,7 @@ nav > button:hover{
 
 
 .par{
-    width:60%;
+    max-width:50%;
 }
 
 .par>p{
